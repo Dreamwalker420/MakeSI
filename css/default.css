@@ -1,0 +1,15 @@
+/*
+	MakeSI CSS
+	
+*/
+
+span.code {
+	background-color: #DCDCDC;
+	color: #000;
+	padding: 0.08em 0.25em;
+}
+
+ul.givemebullets {
+	list-style-type: disc;
+	list-style-position: inside; 
+}

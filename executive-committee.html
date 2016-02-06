@@ -28,7 +28,7 @@
 	<link rel="stylesheet" type="text/css" href="css/vanilla.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-3.2.1/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 
 	<!-- Scripts -->
@@ -57,6 +57,7 @@
 		*/
 
 		@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext);
+		@import url(https://fonts.googleapis.com/css?family=Lora:400,700,700italic,400italic&subset=latin,latin-ext,cyrillic);
 
 		html,body {
 			height:100%;
@@ -64,6 +65,10 @@
 
 		hr.small {
 			max-width: 215px;
+		}
+
+		span.bold {
+			font-weight: 900;
 		}
 
 		.text-maroon {
@@ -175,7 +180,7 @@
 		}
 
 		#content {
-			padding: 6.484em;
+			padding: 0;
 
 			/*
 			position: relative;
@@ -185,7 +190,7 @@
 		    background-size: cover;
 		    overflow: hidden;
 			*/
-		    margin-bottom: 0;
+		    margin-bottom: 10px;
 		}
 
 		/*
@@ -273,6 +278,37 @@
 			font-weight: 600;
 		}
 
+		.profile-wrapper {
+			background-color: #660000;
+
+		}
+
+		.profile-image {
+			border-radius: 10px;
+		}
+
+		.profile-name, .profile-title, .profile-description {
+			font-family: 'Lora', serif;;
+		}
+
+		.profile-name {
+			font-size: 5.246em;
+			font-weight: 900;
+		}
+
+		.profile-links {
+			padding-left: 2.310em;
+		}
+
+		.profile-title {
+			font-size: 1.912em;
+			font-weight: 600;
+		}
+
+		.profile-description {
+
+		}
+
 		footer {
 			padding-top: 0.468em;
 			background-color: #d9d6cc;
@@ -332,12 +368,12 @@
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="executive-committee.html">Executive Committee</a></li>
+	            <li><a href="#home">Executive Committee</a></li>
 	            <li><a href="event-support.html#volunteer">Volunteer</a></li>
 	            <li><a href="event-support.html#mentor">Mentor</a></li>
 	            <li><a href="event-support.html#sponsor">Sponsor</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#home">Donate</a></li>
+	            <li><a href="donate.html">Donate</a></li>
 	          </ul>
 	        </li>
 	      </ul>
@@ -347,12 +383,21 @@
 
     <section id="content">
     	<div class="container">
-			<div class="row" id="donate">
+			<div class="row" id="executive-committee">
 				<div class="col-sm-12">
 					<div class="subject-wrapper">
-						<p class="subject-header">Donate</p>
-						<div class="col-sm-3 col-sm-offset-1"><img src="" class="img-responsive"></div>
-						You will be able to make a donation soon!
+						<p class="subject-header">MakeSI 2016 &bull; Executive Committee</p>
+						<div class="row">
+							<div class="profile-wrapper">
+								<div class="col-sm-3 col-sm-offset-1"><img src="images/profiles/kirk.png" class="img-responsive profile-image"></div>
+								<div class="col-sm-6">
+									<p><span class="profile-name">Kirk Powell</span>
+										<a href="http://www.facebook.com/Dreamwalker420" class="navbar-a profile-links" target="_facebook"><i class="icon-facebook icon-2x"></i></a>
+										<a href="http://www.linkedin.com/in/kirkleroy" target="_linkedin" class="navbar-a profile-links"><i class="icon-linkedin icon-2x"></i></a></p>
+									<p class="profile-title">Event Coordinator, Website Administrator</p>
+									<p class="profile-description">Kirk is a native of the Pacific Northwest, where he established a retail and e-commerce business while attending the University of Oregon. After a few years of buying and selling on the internet, Kirk opened his first retail store. Working in every aspect of the business, Kirk learned first-hand how businesses work, the importance of good relationships, and a strong ethic to do it right! Kirk served as Chairman of the Board, Chief Executive Officer, Chief Financial Officer, and the Operations Manager at Von Neumann &amp; Morgenstern, LLC. After nearly two-decades in the retail industry, Kirk recently migrated to the Heartland of America to apply his skills in computer science. Currently a Senior at Southern Illinois University, Kirk is the website administrator and design guru for MakeSI.  Other projects include <a href="http://www.thegamestoreapp.com" target="_NEW">Vlad, the GameStoreApp</a> and <span class="bold">Hyper-textbooks</span>. Kirk has been an avid Professional Football fan since he was four! He enoys discussions on economics, politics, religious philosophy and constitutional law. Kirk is also an accomplished card-player (Magic: The Gathering Pro Tour 1997).</p>
+							</div>
+						</div>
 					</div>		
 				</div>
 			</div>

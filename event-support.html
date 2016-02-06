@@ -28,8 +28,11 @@
 	<link rel="stylesheet" type="text/css" href="css/vanilla.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-3.2.1/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/default.css">
+
+	<!--  Page specific components -->
+	<link rel="stylesheet" type="text/css" href="css/fa-cbp.css">
 
 	<!-- Scripts -->
 	<!-- HTML5 Shim and Respond.js are here to provide IE8 support of HTML5 elements and media queries -->
@@ -175,7 +178,7 @@
 		}
 
 		#content {
-			padding: 6.484em;
+			padding: 0;
 
 			/*
 			position: relative;
@@ -236,6 +239,7 @@
 		.subject-wrapper
 		{
 			margin-top: 10.0em;
+			text-align: center;
 		}
 
 		.subject-header {
@@ -332,7 +336,7 @@
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="#executive-committee">Executive Committee</a></li>
+	            <li><a href="executive-committee.html">Executive Committee</a></li>
 	            <li><a href="#volunteer">Volunteer</a></li>
 	            <li><a href="#mentor">Mentor</a></li>
 	            <li><a href="#sponsor">Sponsor</a></li>
@@ -351,8 +355,31 @@
 				<div class="col-sm-12">
 					<div class="subject-wrapper">
 						<p class="subject-header">Event Support</p>
-						<div class="col-sm-3 col-sm-offset-1"><img src="images/subjects/crest-2.png" class="img-responsive"></div>
-						You will be able to support our event soon!
+						<div class="main">
+							<ul class="cbp-ig-grid">
+								<li>
+									<a href="registration.html" target="_DOCS">
+										<span class="cbp-ig-icon icon-group"></span>
+										<h3 class="cbp-ig-title">Volunteer</h3>
+										<span class="cbp-ig-category">Sign-up Today!</span>
+									</a>
+								</li>
+								<li>
+									<a href="docs/mentorships.pdf" target="_DOCS">
+										<span class="cbp-ig-icon icon-thumbs-up"></span>
+										<h3 class="cbp-ig-title">Mentor</h3>
+										<span class="cbp-ig-category">Get Involved</span>
+									</a>
+								</li>
+								<li>
+									<a href="docs/sponsorships.pdf" target="_DOCS">
+										<span class="cbp-ig-icon icon-heart"></span>
+										<h3 class="cbp-ig-title">Sponsorship</h3>
+										<span class="cbp-ig-category">Help Us Help Others</span>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>		
 				</div>
 			</div>
